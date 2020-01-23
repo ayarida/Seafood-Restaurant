@@ -10,12 +10,13 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class RegisterController {
+public class ControllerRestaurant2 {
+
     @FXML
-    Button confirm;
+    Button BackPage;
+
     public void initialize(){
-        confirm.setStyle("-fx-background-color: #dd994c");
-        confirm.setOnAction(event -> {
+        BackPage.setOnAction(event -> {
             try {
                 Parent root = FXMLLoader.load(getClass().getResource("../sample/Restaurant1.fxml"));
                 Scene scene = new Scene(root);
@@ -27,4 +28,5 @@ public class RegisterController {
             }
         });
     }
+
 }

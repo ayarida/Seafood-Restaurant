@@ -12,22 +12,25 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+import static javafx.fxml.FXMLLoader.load;
+
 
 public class welcomeController {
 
-    @FXML
-    Button login;
+   @FXML
+   Button login;
 
     @FXML
     Button register;
     @FXML
     Button guest;
 
-    public void initialize(){
+    public void initialize() {
 
         login.setStyle("-fx-background-color: #c99c34");
         register.setStyle("-fx-background-color: #c99c34");
         guest.setStyle("-fx-background-color: #c99c34");
+
 
         login.setOnAction(event -> {
             try {
@@ -42,6 +45,9 @@ public class welcomeController {
         });
 
 
+
+
+
         register.setOnAction(event -> {
             try {
                 Parent root = FXMLLoader.load(getClass().getResource("../sample/register.fxml"));
@@ -49,12 +55,13 @@ public class welcomeController {
                 Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
                 window.setScene(scene);
                 window.show();
-            }catch(IOException e){
+            } catch (IOException e) {
                 e.printStackTrace();
             }
         });
 
+
+
+
     }
-
-
 }

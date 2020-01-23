@@ -10,20 +10,21 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class RegisterController {
+public class ControllerRestaurant1 {
+
     @FXML
-    Button confirm;
+    Button NextPage;
+
     public void initialize(){
-        confirm.setStyle("-fx-background-color: #dd994c");
-        confirm.setOnAction(event -> {
+        NextPage.setOnAction(e -> {
             try {
-                Parent root = FXMLLoader.load(getClass().getResource("../sample/Restaurant1.fxml"));
+                Parent root = FXMLLoader.load(getClass().getResource("../sample/Restaurant2.fxml"));
                 Scene scene = new Scene(root);
-                Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+                Stage window = (Stage) ((Node) e.getSource()).getScene().getWindow();
                 window.setScene(scene);
                 window.show();
-            }catch(IOException e){
-                e.printStackTrace();
+            }catch(IOException E){
+                E.printStackTrace();
             }
         });
     }
