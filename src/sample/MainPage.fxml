@@ -9,9 +9,8 @@
    <children>
       <ImageView fitHeight="1700.0" fitWidth="2000.0" layoutX="-4.0" layoutY="-31.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/Razan/Desktop/University/Third%20Year/GUI/Project/images/Capture2.png" />
-         </image>
-      </ImageView>
+            <Image url="file:/C:/Users/Razan/Desktop/University/Third%20Year/GUI/Project/Seafood-Restaurant/images/Capture2.png" />
+         </image></ImageView>
       <Label layoutX="893.0" layoutY="203.0" prefHeight="192.0" prefWidth="462.0" text="Welcome " textFill="#d57a0c">
          <font>
             <Font name="Edwardian Script ITC" size="140.0" />
