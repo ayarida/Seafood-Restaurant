@@ -20,7 +20,7 @@ public class Controller {
         continue2.setStyle("-fx-background-color: #d57a0c");
         continue2.setOnAction(event -> {
             try {
-                Parent root = FXMLLoader.load(getClass().getResource("../sample/Restaurant1.fxml"));
+                Parent root = FXMLLoader.load(getClass().getResource("../sample/Choice.fxml"));
                 Scene scene = new Scene(root);
                 Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
                 window.setScene(scene);

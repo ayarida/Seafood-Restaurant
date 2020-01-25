@@ -7,9 +7,9 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerMain">
    <children>
-      <ImageView fitHeight="1700.0" fitWidth="2000.0" layoutX="-4.0" layoutY="-31.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="1757.0" fitWidth="1996.0" layoutY="-31.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/Razan/Desktop/University/Third%20Year/GUI/Project/Seafood-Restaurant/images/Capture2.png" />
+            <Image url="file:/C:/Seafood-Restaurant/images/Capture2.png" />
          </image></ImageView>
       <Label layoutX="893.0" layoutY="203.0" prefHeight="192.0" prefWidth="462.0" text="Welcome " textFill="#d57a0c">
          <font>
@@ -30,6 +30,7 @@
             <Font name="Edwardian Script ITC" size="51.0" />
          </font>
       </Label>
-      <Button fx:id="continue1" layoutX="1097.0" layoutY="724.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="89.0" text="Continue" />
+      <Button fx:id="continue1" layoutX="1088.0" layoutY="732.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="89.0" text="Continue" />
+
    </children>
 </AnchorPane>

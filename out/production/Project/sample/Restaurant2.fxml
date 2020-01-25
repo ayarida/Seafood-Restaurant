@@ -9,7 +9,7 @@
     <children>
         <ImageView fitHeight="2000.0" fitWidth="2000.0" layoutX="-11.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="file:/C:/Users/Razan/Desktop/University/Third%20Year/GUI/Project/Seafood-Restaurant/images/3ced5ddeab1885c054fb2a6cfc0cfe92.jpg" />
+                <Image url="file:/C:/Seafood-Restaurant/images/3ced5ddeab1885c054fb2a6cfc0cfe92.jpg" />
             </image>
         </ImageView>
         <Label layoutX="197.0" layoutY="91.0" text="Choose Your" textFill="#d2770f">
@@ -24,7 +24,7 @@
         </Label>
         <ImageView fitHeight="603.0" fitWidth="463.0" layoutX="364.0" layoutY="363.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="file:/C:/Users/Razan/Desktop/University/Third%20Year/GUI/Project/Seafood-Restaurant/images/08d4f6881c533937722cea2ec1d735c1.jpg" />
+                <Image url="file:/C:/Seafood-Restaurant/images/08d4f6881c533937722cea2ec1d735c1.jpg" />
             </image>
         </ImageView>
         <Label layoutX="1037.0" layoutY="381.0" prefHeight="67.0" prefWidth="216.0" text="Samakati" textFill="#ed8207">
@@ -34,7 +34,7 @@
         </Label>
         <ImageView fitHeight="117.0" fitWidth="107.0" layoutX="894.0" layoutY="364.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="file:/C:/Users/Razan/Desktop/University/Third%20Year/GUI/Project/Seafood-Restaurant/images/download%20(4).png" />
+                <Image url="file:/C:/Seafood-Restaurant/images/download%20(4).png" />
             </image>
         </ImageView>
         <Label layoutX="1334.0" layoutY="417.0" prefHeight="22.0" prefWidth="288.0" text="Batroun                       Seafood" textFill="#fffcfc">
@@ -45,7 +45,7 @@
         <Button layoutX="1750.0" layoutY="417.0" mnemonicParsing="false" style="-fx-background-color: #c99c34;" text="See Menu" textFill="#fdf7f7" />
         <ImageView fitHeight="107.0" fitWidth="111.0" layoutX="894.0" layoutY="503.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="file:/C:/Users/Razan/Desktop/University/Third%20Year/GUI/Project/Seafood-Restaurant/images/download%20(5).png" />
+                <Image url="file:/C:/Seafood-Restaurant/images/download%20(5).png" />
             </image>
         </ImageView>
         <Label layoutX="1036.0" layoutY="524.0" prefHeight="62.0" prefWidth="196.0" text="Le Phenicien" textFill="#ed850e">
@@ -76,7 +76,7 @@
         </Label>
         <ImageView fitHeight="107.0" fitWidth="107.0" layoutX="889.0" layoutY="647.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="file:/C:/Users/Razan/Desktop/University/Third%20Year/GUI/Project/Seafood-Restaurant/images/download.jpeg" />
+                <Image url="file:/C:/Seafood-Restaurant/images/download.jpeg" />
             </image>
         </ImageView>
         <Label layoutX="1079.0" layoutY="669.0" text="Babel" textFill="#f88502">
@@ -92,7 +92,7 @@
         <Button layoutX="1750.0" layoutY="698.0" mnemonicParsing="false" style="-fx-background-color: #c99c34;" text="See Menu" textFill="WHITE" />
         <ImageView fitHeight="107.0" fitWidth="107.0" layoutX="889.0" layoutY="791.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="file:/C:/Users/Razan/Desktop/University/Third%20Year/GUI/Project/Seafood-Restaurant/images/20200123_182137.jpg" />
+                <Image url="file:/C:/Seafood-Restaurant/images/20200123_182137.jpg" />
             </image>
         </ImageView>
         <Label layoutX="1069.0" layoutY="812.0" text="Riba" textFill="#e57f0a">
@@ -122,5 +122,6 @@
             <Font name="System Bold" size="17.0" />
          </font>
       </Label>
+      <Button layoutX="1724.0" layoutY="158.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="88.0" style="-fx-background-color: #c99c34;" text="Home" textFill="WHITE" />
     </children>
 </AnchorPane>

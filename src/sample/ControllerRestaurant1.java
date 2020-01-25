@@ -15,7 +15,25 @@ public class ControllerRestaurant1 {
     @FXML
     Button NextPage;
 
+    @FXML
+    Button home;
+
+
     public void initialize(){
+
+        home.setOnAction(ex -> {
+            try {
+                Parent root = FXMLLoader.load(getClass().getResource("../sample/Choice.fxml"));
+                Scene scene = new Scene(root);
+                Stage window = (Stage) ((Node) ex.getSource()).getScene().getWindow();
+                window.setScene(scene);
+                window.show();
+            }catch(IOException Ex){
+                Ex.printStackTrace();
+            }
+        });
+
+
         NextPage.setOnAction(e -> {
             try {
                 Parent root = FXMLLoader.load(getClass().getResource("../sample/Restaurant2.fxml"));

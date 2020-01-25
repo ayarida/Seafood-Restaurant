@@ -17,7 +17,7 @@ public class RegisterController {
         confirm.setStyle("-fx-background-color: #dd994c");
         confirm.setOnAction(event -> {
             try {
-                Parent root = FXMLLoader.load(getClass().getResource("../sample/Restaurant1.fxml"));
+                Parent root = FXMLLoader.load(getClass().getResource("../sample/Choice.fxml"));
                 Scene scene = new Scene(root);
                 Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
                 window.setScene(scene);

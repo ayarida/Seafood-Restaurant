@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ChoiceController">
+    <children>
+        <ImageView fitHeight="1700.0" fitWidth="2000.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="file:/C:/Seafood-Restaurant/images/Capture2.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="SeeRest" layoutX="1139.0" layoutY="330.0" mnemonicParsing="false" prefHeight="97.0" prefWidth="355.0" text="See Restaurants" textFill="#000000f2">
+            <font>
+                <Font name="Gadugi" size="25.0" />
+            </font>
+        </Button>
+        <Button fx:id="BookTable" layoutX="1139.0" layoutY="463.0" mnemonicParsing="false" prefHeight="97.0" prefWidth="355.0" text="Book a Table">
+            <font>
+                <Font size="25.0" />
+            </font></Button>
+        <Button fx:id="SearchLocation" layoutX="1139.0" layoutY="583.0" mnemonicParsing="false" prefHeight="97.0" prefWidth="355.0" text="Search by Location">
+            <font>
+                <Font name="Gadugi" size="25.0" />
+            </font></Button>
+    </children>
+</AnchorPane>

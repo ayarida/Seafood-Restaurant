@@ -13,7 +13,7 @@
             <DropShadow />
          </effect>
          <image>
-            <Image url="file:/C:/Users/Razan/Desktop/University/Third%20Year/GUI/Project/Seafood-Restaurant/images/Capture2.png" />
+            <Image url="file:/C:/Seafood-Restaurant/images/Capture2.png" />
          </image>
       </ImageView>
 
