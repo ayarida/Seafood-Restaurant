@@ -1,0 +1,10 @@
+bdna table users b2lba m3lumet 3anu (id first w lastname phonenb email) w ykun fe status w level
+table levels 3ndu id w level shu hye
+table statuses 3ndu id w status shu hye
+
+this for signup  and sign 
+
+
+bl laravel no need a3mul sign in w sign up pages besta3mel command
+php artisan view ...(hsab kl version)
+
